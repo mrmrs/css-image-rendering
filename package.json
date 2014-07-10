@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "image-rendering"
   ],
   "css-image-rendering": {
     "type": "git",
