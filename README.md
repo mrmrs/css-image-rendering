@@ -23,19 +23,19 @@ or download the css on github and include in your project.
 .render-auto { image-rendering: crisp-edges; }
 .render-auto { image-rendering: pixelated; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .render-auto-ns {  image-rendering: auto; }
   .render-auto-ns {  image-rendering: crisp-edges; }
   .render-auto-ns {  image-rendering: pixelated; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .render-auto-m {  image-rendering: auto; }
   .render-auto-m {  image-rendering: crisp-edges; }
   .render-auto-m {  image-rendering: pixelated; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .render-auto-l {  image-rendering: auto; }
   .render-auto-l {  image-rendering: crisp-edges; }
   .render-auto-l {  image-rendering: pixelated; }
