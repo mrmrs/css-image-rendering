@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-image-rendering)
 ## File Size
 
 748B image-rendering.css
-611B image-rendering.min.css
+611B image-rendering.min.css 
+166B minified and gzipped
 
 ## The Code
 ```
