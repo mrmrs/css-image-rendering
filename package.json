@@ -1,7 +1,7 @@
 {
   "name": "css-image-rendering",
   "style": "image-rendering.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-image-rendering",
   "description": "Css module of single purpose classes for image rendering",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-image-rendering.css > css/css-image-rendering.css && tachyons src/css-image-rendering.css --minify > css/css-image-rendering.min.css && tachyons src/css-image-rendering.css --generate-docs --package=../../package.json > readme.md"
