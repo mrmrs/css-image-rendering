@@ -1,38 +1,44 @@
 {
   "name": "css-image-rendering",
-  "style": "image-rendering.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-image-rendering",
-  "description": "Css module of single purpose classes for image rendering",
+  "version": "2.0.0",
+  "description": "Functional CSS for image-rendering",
+  "style": "dist/image-rendering.css",
+  "main": "dist/image-rendering.css",
+  "exports": {
+    ".": "./dist/image-rendering.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "image-rendering"
+    "image-rendering",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-image-rendering": {
+  "homepage": "https://github.com/mrmrs/css-image-rendering",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-image-rendering.git"
+    "url": "https://github.com/mrmrs/css-image-rendering.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-image-rendering/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-image-rendering/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
