@@ -7,19 +7,19 @@
 .render-auto { image-rendering: crisp-edges; }
 .render-auto { image-rendering: pixelated; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .render-auto-s {  image-rendering: auto; }
   .render-auto-s {  image-rendering: crisp-edges; }
   .render-auto-s {  image-rendering: pixelated; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .render-auto-m {  image-rendering: auto; }
   .render-auto-m {  image-rendering: crisp-edges; }
   .render-auto-m {  image-rendering: pixelated; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .render-auto-l {  image-rendering: auto; }
   .render-auto-l {  image-rendering: crisp-edges; }
   .render-auto-l {  image-rendering: pixelated; }
