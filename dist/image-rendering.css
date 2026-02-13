@@ -2,6 +2,10 @@
   image-rendering: auto;
 }
 
+.render-smooth {
+  image-rendering: smooth;
+}
+
 .render-crisp {
   image-rendering: crisp-edges;
 }
@@ -13,6 +17,10 @@
 @media screen and (width >= 32em) {
   .render-auto-s {
     image-rendering: auto;
+  }
+
+  .render-smooth-s {
+    image-rendering: smooth;
   }
 
   .render-crisp-s {
@@ -29,6 +37,10 @@
     image-rendering: auto;
   }
 
+  .render-smooth-m {
+    image-rendering: smooth;
+  }
+
   .render-crisp-m {
     image-rendering: crisp-edges;
   }
@@ -41,6 +53,10 @@
 @media screen and (width >= 96em) {
   .render-auto-l {
     image-rendering: auto;
+  }
+
+  .render-smooth-l {
+    image-rendering: smooth;
   }
 
   .render-crisp-l {
